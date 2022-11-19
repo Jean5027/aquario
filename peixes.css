@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: 0;
+    font-family: 'Noto Serif', serif;
+} 
+nav{
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    padding: 3.5rem;
+    display: flex;
+    backdrop-filter: blur(5px);
+    box-shadow: rgb(0, 0, 0, 0.1) 0px 2px 4px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{ 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+ul li{
+    
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    
+}
+nav ul li a{
+    transform: scale(1.1);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s ;
+    
+    
+}
+
+body{
+    background-image: url('img/www.jpeg' );
+    object-fit: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.card{
+
+    display:grid;
+    grid-template-columns:repeat(3, auto);
+    /* grid-template-rows:60px 60px; */
+    gap: 2rem;
+    margin-top: 10rem;
+
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card_back{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    color: #222;
+    background-color: rgb(32, 168, 241);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+    width: 500px;
+    padding: 10px 14px;
+    border-radius: 0.5rem;
+
+    font-size: 16px;
+    text-align: justify;
+
+
+
+}
+
+.img{
+
+    height: 300px;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+
+}
+
+.card_conteudo {
+    margin-bottom: 2rem;
+}
